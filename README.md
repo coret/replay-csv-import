@@ -15,7 +15,7 @@ First, a manual import has to be done via the [Omeka S CSV import module](https:
 **Note**: this is only logical for update/revise imports and data with (persistent) identifiers.
 
 ```
-bash replay-csv-import.sh -csv [filename of csv/tsv file from which the data is updated] -job [job id to replicatie]
+bash replay-csv-import.sh -csv [filename of file from which the data is updated] -job [job id to replicate]
 ```
 
 **Beware**: this script uses the Omeka S `perform-job.php` (=the good), after directly inserting a (cloned) record into the `jobs` table in the Omeka database (=the bad). Use with caution!
