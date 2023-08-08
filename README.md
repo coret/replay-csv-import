@@ -5,7 +5,7 @@ A Bash script to "replay" an CSV import in Omeka S. Can be used to automate (eg.
 ## Prerequisites
 
 - This Bash script uses `jq` and `mysql`, these have to be installed on your system.
-- Configuration of the Omeka S instance for the script can be done via the .env file, no need for changes in the .sh file.
+- Configuration of the Omeka S instance for the script can be done via the [.env file](https://github.com/coret/replay-csv-import/blob/main/replay-csv-import.env), no need for changes in the [.sh file](https://github.com/coret/replay-csv-import/blob/main/replay-csv-import.sh).
 - Omeka S database configuration is used from config/database.ini.
 
 ## Running the script
